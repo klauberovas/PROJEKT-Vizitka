@@ -60,7 +60,7 @@ h1{
 .odstavec1,
 .odstavec2 {
     margin: 0;
-    padding: 20px 0 0 0;
+    padding-top: 30px;
 }
 
 .icons a{
@@ -71,13 +71,11 @@ h1{
 
 .twitter {
     background-color:#1da1f2 ;
-    padding: 10px 0;
 }
 
 .facebook {
     background-color: #3b5998;
-    margin-top: 5px;
-    padding: 10px 0;
+    margin-top: 5px; 
 }
 
 .twitter,
@@ -85,13 +83,14 @@ h1{
     color: white;
     border-radius: 5px ;
     text-transform: uppercase;
+    padding: 10px 0;
 }
 
-.twitter:active {
+.twitter:hover {
     background-color: #0b7bc1;
 }
 
-.facebook:active{
+.facebook:hover{
     background-color: #2b406e;
 }
 
